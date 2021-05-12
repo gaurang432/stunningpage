@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+
+topbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-image{
+    width: 150px;
+}
+
+#topbar-link
+    {
+    color: gray;
+    text-decoration: none;
+    justify-content: center;
+    margin: 20px;
+
+}
+#topbar-link:hover
+    {
+    color: #8071D0;
+    text-decoration:underline;
+    }
+
+    .account-button{
+        border-radius: 25px;
+        color:#A389CC ;
+        background-color: #FFD8DB;
+        border: none;
+        cursor: pointer;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding: 10px;
+    }
+
+    .main-page{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    #main-image{
+        width: 500px;
+        margin-right: 80px;
+        padding-top: 30px;
+    }
+    
+   .heading-main{
+        font-size: 50px;
+        width: 30%;
+        text-align: left;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 80px;
+        margin-bottom: 0px;
+        font-weight:900;
+        
+        
+       
+        
+    }
+    main i{
+        color: rgb(69, 69, 236);
+        padding: 4px;
+    }
+
+   .heading-caption{
+       text-align: center;
+       align-items: center;
+       margin-top: 0px;
+       font-family: 'Raleway', sans-serif;
+       font-size:15px;
+       font-style:normal;
+       font-weight: lighter;
+       
+   }
+
+   .newaccount-button{
+       border-radius: 25px;
+       padding:15px;
+       background-color:#5243C0;
+       color: #ffffff;
+       border: none;    
+      
+       margin: 20px;
+   }
+   
+   .arrow-icon{
+       padding: 10px;
+       margin-top: 10px;
+       height: 40px;
+   }
+   
+   main div{
+       display: flex;
+   }
+   .category{
+       width: 70%;
+       padding: 1px;
+       margin-left: 40px;
+       background-color: rgb(240, 240, 240);
+       box-shadow: 1px 1px 2px rgb(173, 170, 170);
+       border-radius: 8px;
+       
+      
+   }
+.content-image{
+    height: 30px;
+    
+}
+main h3{
+    margin-top: 0px;
+    padding: 4px;
+}
+.category1{
+    width: 70%;
+    padding: 1px;
+    margin-left: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px rgb(173, 170, 170);
+    border-radius: 8px;
+   
+}
